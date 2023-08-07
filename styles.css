@@ -7,7 +7,7 @@
     color: white;
 }
 body{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(../Images/background.gif);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(https://francistr.github.io/Bitsy-The-Waverider/Images/background.gif);
 }
 a{
     color: blueviolet;
