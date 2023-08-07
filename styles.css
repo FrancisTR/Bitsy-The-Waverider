@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(../Images/background.gif);
+}
+a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+a:hover{
+    color: orange;
+}
+
+
+
+.playGame{
+    border: 4px solid gray;
+    border-radius: 3%;
+    width: 35%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: linear-gradient(#282d3d, #282d3d);
+}
+
+.playButton{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.playControls{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.playButton button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid blueviolet;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.playButton button:hover{
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    transition: .4s;
+    cursor: pointer;
+}
